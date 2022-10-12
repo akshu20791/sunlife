@@ -1,0 +1,40 @@
+
+ASSESSMENT - CRR CASE STUDY 
+
+
+
+2)  Create a bucket -> make s3 bucket public -> upload object -> make the object as public -> now change the object back to private
+3) Is it necessary to delete the content of S3 bucket to delete a S3 bucket? how can you delete a S3 bucket
+4) What is the significance of creating a S3 bucket in a particual region?
+4.1)  Demonstrate CRR(cross region replication) in s3 in which source bucket is in northvirginia and the destination bucket is in mumbai
+5) what happens if you change your source bucket to private and destination bucket as private? still CRR will work?
+6) what happens if you change your source bucket to public and destination bucket as private ? still CRR will work?
+7) what happens if you change your source bucket to public and destination bucket as public? still CRR will work?
+8) What happens if you change the object in source bucket to public? will it be changed to public in destination bucket also?
+9) What happens if you change the object in source bucket to private ?will it be changed to private in destination bucket also or will not change anything?
+10)What happens if you change the object(which came via CRR) in destination bucket to public? will it impact the crr property in any way?
+11) what happens when you delete the object from the source bucket? would it be deleted in destination bucket also?
+12) what happens when you delete the object from the destination bucket? would it be deleted in source bucket also?
+13) what happens when your disable/suspend versioning in destination bucket? still CRR will work or not?
+14)  what happens when your disable/suspend versioning in source bucket? still CRR will work or not?
+
+
+
+Topics we will cover today:
+
+1) Cloudfront
+2) SNS and cloudwatch (event bridge)
+3) Elastic Beanstalk
+4) Loadbalncer and autoscaling
+
+
+
+
+
+
+
+
+
+
+
+
