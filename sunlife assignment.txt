@@ -1,0 +1,24 @@
+1) Enable versioning by default when you create a S3 bucket
+2) Delete the object in S3 bucket
+3) Can you make a object public in private s3 bucket ?
+4) What happens when : 
+
+a) Create bucket ->Enable versioning -> suspend versioning -> upload a object -> delete the object -> can you bring the object back?
+b) Create bucket -> enable versioning -> upload object (file1) -> suspend versioning -> upload object (file2) -> delete file 2 -> can you bring the 
+file2 back?
+c) Create bucket -> enable versioning -> upload object (file1) -> suspend versioning -> upload object (file2) -> delete file 1 -> can you bring the 
+file1 back?
+d) Create bucket -> upload object (file1) -> enable versioning -> upload object (file2) -> delete file1 -> can you bring the file1 back?
+e) Create bucket -> upload object (file1) -> enable versioning -> upload object (file2) -> delete file2 -> can you bring file2 back?
+f) Create bucket  -> upload object (file1) -> enable versiong -> upload object (file2) -> Suspend versioning -> Delete file1 -> Can you bring file1 back??
+g) Create bucket  -> upload object (file1) -> enable versiong -> upload object (file2) -> Suspend versioning -> Delete file2 -> Can you bring file2 back??
+h) Create bucket -> Enable versioning -> upload object (file1) -> suspend versioning -> upload file2 -> Enable versioning -> upload file 3 
+-> suspend versionnig-> delete file 1->can you bring back file1
+i)Create bucket -> Enable versioning -> upload object (file1) -> suspend versioning -> upload file2 -> Enable versioning -> upload file 3 
+-> suspend versionnig-> delete file2->can you bring back file2
+j) Create bucket -> Enable versioning -> upload object (file1) -> suspend versioning -> upload file2 -> Enable versioning -> upload file 3 
+-> suspend versionnig-> delete file3->can you bring back file3
+5)  Create Windows Ec2 machine with RDP and internet enabled
+6) Create Windows ec2 and launch a website " hello world" 
+7) Create a Linux ec2 
+8) Launch a linux ec2 and launch a website on linux server (via mobaxterm)
